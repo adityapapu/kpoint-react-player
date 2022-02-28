@@ -1,29 +1,11 @@
 <h1 align='center'>
-  kPointPlayer
+  kpoint-react-player
 </h1>
 
-<p align='center'>
-  <a href='https://www.npmjs.com/package/react-player'>
-    <img src='https://img.shields.io/npm/v/react-player.svg' alt='Latest npm version'>
-  </a>
-  <a href='https://travis-ci.org/CookPete/react-player'>
-    <img src='https://img.shields.io/travis/CookPete/react-player/master.svg' alt='Build Status'>
-  </a>
-  <a href='https://codecov.io/gh/CookPete/react-player'>
-    <img src='https://img.shields.io/codecov/c/github/cookpete/react-player.svg' alt='Test Coverage'>
-  </a>
-  <a href='https://www.patreon.com/cookpete'>
-    <img src='https://img.shields.io/badge/sponsor-patreon-fa6854.svg' alt='Become a sponsor on Patreon'>
-  </a>
-</p>
 
 <p align='center'>
   A React component for embeding video in kpoint player. 
 </p>
-
-### Migrating to ReactPlayer `v2.0`
-
-ReactPlayer `v2.0` changes single player imports and adds lazy loading players. Support for `preload` has also been removed, plus some other changes. See [`MIGRATING.md`](/MIGRATING.md) for information.
 
 ### Usage
 
@@ -51,7 +33,7 @@ ReactDOM.render(
 );
 
 ```
-For platforms without direct use of `npm` modules, a minified version of `ReactPlayer` is located in `dist` after installing. To generate this file yourself, checkout the repo and run `npm run build`.
+
 
 ## Props
 
